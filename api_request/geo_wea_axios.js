@@ -21,7 +21,7 @@ var Background=(geoURL)=>{
    .then((Wdata)=>{
 
         console.log(`Temperature=${Wdata.data.currently.temperature}\n`);
-        console.log(`PrecipitationProbability=${Wdata.data.currently.precipProbability*100}\n`);
+        console.log(`PrecipitationProbability=${Wdata.data.currently.precipProbability*100}%\n`);
         console.log(`Summary=${Wdata.data.currently.summary}\n`);
         console.log(`DewPoint=${Wdata.data.currently.dewPoint}\n`);
 
